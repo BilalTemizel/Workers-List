@@ -48,9 +48,6 @@ namespace sonun_sonu.Controllers
                         }
                         catch (SqlException ex)
                         {
-                            // Hata işleme kodunu buraya ekleyin (isteğe bağlı)
-                            // Örneğin, hata mesajını yakalayabilir veya loglayabilirsiniz.
-
                             return RedirectToAction("Index");
                         }
                     }
@@ -139,14 +136,10 @@ namespace sonun_sonu.Controllers
                                 }
                                 else
                                 {
-                                    // WM_CODE değeri geçerli bir int'e dönüştürülemediği durumu işleyebilirsiniz.
-                                    // Hata işleme veya varsayılan değer atama gibi bir yaklaşım kullanabilirsiniz.
                                 }
                             }
                             else
                             {
-                                // WM_ID değeri geçerli bir int'e dönüştürülemediği durumu işleyebilirsiniz.
-                                // Hata işleme veya varsayılan değer atama gibi bir yaklaşım kullanabilirsiniz.
                             }
                         }
                     }
@@ -180,8 +173,6 @@ namespace sonun_sonu.Controllers
                         }
                         catch (SqlException ex)
                         {
-                            // Hata işleme kodunu buraya ekleyin (isteğe bağlı)
-                            // Örneğin, hata mesajını yakalayabilir veya loglayabilirsiniz.
                         }
                     }
                 }
@@ -226,14 +217,10 @@ namespace sonun_sonu.Controllers
                                 }
                                 else
                                 {
-                                    // WM_CODE değeri geçerli bir int'e dönüştürülemediği durumu işleyebilirsiniz.
-                                    // Hata işleme veya varsayılan değer atama gibi bir yaklaşım kullanabilirsiniz.
                                 }
                             }
                             else
                             {
-                                // WM_ID değeri geçerli bir int'e dönüştürülemediği durumu işleyebilirsiniz.
-                                // Hata işleme veya varsayılan değer atama gibi bir yaklaşım kullanabilirsiniz.
                             }
                         }
                     }

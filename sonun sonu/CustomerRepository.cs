@@ -81,8 +81,6 @@ namespace sonun_sonu.Data
                                 }
                                 else
                                 {
-                                    // WM_CODE değeri geçerli bir int'e dönüştürülemediği durumu işleyebilirsiniz.
-                                    // Hata işleme veya varsayılan değer atama gibi bir yaklaşım kullanabilirsiniz.
                                 }
                             }
 
@@ -95,8 +93,6 @@ namespace sonun_sonu.Data
                                 }
                                 else
                                 {
-                                    // WM_CODE değeri geçerli bir int'e dönüştürülemediği durumu işleyebilirsiniz.
-                                    // Hata işleme veya varsayılan değer atama gibi bir yaklaşım kullanabilirsiniz.
                                 }
                             }
 
